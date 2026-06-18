@@ -1,4 +1,5 @@
-/*Body Reset*/
+/*---------- Body Reset ----------*/
+
 body {
   margin: 0;
   padding: 0;
@@ -143,7 +144,7 @@ body {
   font-family: "Libre Baskerville", serif;
   font-weight: 600;
   font-style: normal;
-  padding-top: 30px;
+  padding-top: 40px;
   color: #541A1A;
 }
 
@@ -168,11 +169,9 @@ body {
   margin-top: 10px;
   width: 50%;
   position: relative;
+  padding-bottom: 30px;
 }
 
-#resume-button {
-  background-color: #9a1f1f;
-}
 
 /*Changes For Responssivnes*/
 /*Large*/
@@ -199,7 +198,6 @@ body {
   }
   #intro-resume {
     width: 80%;
-    padding-bottom: 10px;
   }
 }
 
@@ -208,7 +206,7 @@ body {
 
 #skill-heading {
   background-color: #F8F2DE;
-  padding: 40px 0px 20px 0px;
+  padding: 50px 0px 30px 0px;
   text-align: center;
   font-family: "Libre Baskerville", serif;
   font-weight: 600;
@@ -230,7 +228,7 @@ body {
 
 .skill-block {
   background-color: #F8F2DE;
-  padding: 10px 0px 30px 0px;
+  padding: 10px 0px 70px 0px;
 }
 @media (max-width: 1024px) and (min-width: 710px){
   .skill-block {
@@ -261,7 +259,7 @@ body {
 .skill-text p {
   font-family: "Pompiere", sans-serif;
   font-style: normal;
-  font-size: 2.6vh;
+  font-size: 3vh;
   color: #541A1A;
   margin: 0px 50px;
   text-align: justify;
@@ -272,5 +270,101 @@ body {
   }
 }
 
+/*--------------- RULES FOR Teamwork Carousel---------------*/
 
+#collab-section {
+  background-color: #ECDCBF;
+  padding-bottom: 60px;
+}
 
+#collab-heading {
+  padding: 60px 0px 30px 0px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #541A1A;
+}
+
+@media (min-width: 1024px) {
+  #carouselcollab {
+    max-width: 70%;
+    margin: 0 auto;
+
+  }
+}
+
+.carousel-inner {
+    border-radius: 5%;
+    border: 2px solid #541A1A;
+
+}
+
+#collab-text {
+  font-family: "Pompiere", sans-serif;
+  font-style: normal;
+  font-size: 3.5vh;
+  color: #541A1A;
+  margin: 20px 30% 0px 30%;
+  text-align: center;
+}
+
+@media (max-width: 1024px) and (min-width: 531px){
+  #collab-text {
+    font-size: 3vh;
+    margin: 20px 15% 0px 15%;
+  }
+}
+@media (max-width: 530px) {
+ #collab-text {
+    font-size: 3vh;
+    margin: 20px 6% 0px 6%;
+    text-align: justify;
+  }
+}
+
+/*--------------- RULES FOR Contact---------------*/
+
+#contact-section {
+  background-color: #F8F2DE;
+  padding: 50px 0px 60px 0px;
+  text-align: center;
+}
+
+#contact-section h2 {
+  padding: 20px 0px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #541A1A;
+}
+
+#contact-section p {
+  font-family: "Pompiere", sans-serif;
+  font-style: normal;
+  font-size: 3vh;
+  color: #541A1A;
+  margin: 0px auto;
+}
+@media (max-width: 1200px) {
+  #contact-section p {
+    margin: 0px 12%;
+  }
+}
+
+#contact-button {
+  font-family: "Pompiere", sans-serif;
+  font-style: normal;
+  margin: 30px 0px 0px 0px;
+}
+
+/*--------------- RULES FOR Footer---------------*/
+
+#footer-section {
+  background-color: #5E0006;
+}
+
+#signature {
+  color: #DE6F76;
+  font-family: "Libre Baskerville", serif;
+}
